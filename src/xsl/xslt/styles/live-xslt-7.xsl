@@ -3,9 +3,12 @@
     <xsl:output method="text" encoding="UTF-8"/>
 
     <xsl:template match="/">
-    
-      <xsl:value-of select="concat(         name(TEI/descendant::langUsage/language[1]),' ',         count(TEI/descendant::langUsage/language),' ',         //w[contains(.,'fili')]/@lemma,' ',         upper-case(                 substring(TEI/descendant::langUsage/language[@ident eq 'it'],0,4)                 ), ' '         )"/>
-
+           <xsl:for-each select="distinct-values(//w/@lemma)">
+            <xsl:sort select="." data-type="text" lang="la"/>
+            <xsl:text> </xsl:text>
+            <xsl:value-of select="."/>
+            <xsl:text> </xsl:text>
+           </xsl:for-each>
     </xsl:template>
 
 </xsl:stylesheet>
