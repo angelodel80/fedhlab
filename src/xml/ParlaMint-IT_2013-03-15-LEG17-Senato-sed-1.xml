@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" ana="#parla.sitting #reference" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1" xml:lang="it">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="it">Corpus parlamentare italiano ParlaMint-IT, Legislatura 17, Seduta 1 Senato [ParlaMint]</title>
+            <title type="main" xml:lang="en">Italian parliamentary corpus ParlaMint-IT, Term 17, Sitting 1 Senate [ParlaMint]</title>
+            <title type="sub" xml:lang="it">Resoconto della seduta del Senato della Repubblica italiana, Legislatura 17, seduta 1, giorno (2013-03-15)</title>
+            <title type="sub" xml:lang="en">Report of the session of the Senate of the Italian Republic, Term 17, Sitting 1, Day (2013-03-15)</title>
+            <meeting ana="#parla.upper">Senato</meeting>
+            <meeting ana="#parla.upper #parla.term #LEG.17" n="17-upper">17 Legislatura</meeting>
+            <meeting ana="#parla.upper #parla.sitting" n="1-upper">1 Seduta</meeting>
+            <respStmt>
+               <persName ref="https://orcid.org/0000-0003-3063-2239">Tommaso Agnoloni</persName>
+               <persName ref="https://orcid.org/0000-0002-6829-6309">Roberto Bartolini</persName>
+               <persName ref="https://orcid.org/0000-0002-8126-6294">Francesca Frontini</persName>
+               <persName ref="https://orcid.org/0000-0002-2953-8619">Simonetta Montemagni</persName>
+               <persName ref="https://orcid.org/0000-0002-1321-5444">Valeria Quochi</persName>
+               <persName ref="https://orcid.org/0000-0001-5849-0979">Giulia Venturi</persName>
+               <resp xml:lang="it">Definizione del progetto e metodologia</resp>
+               <resp xml:lang="en">Project set-up and methodology</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Manuela Ruisi</persName>
+               <persName>Carlo Marchetti</persName>
+               <persName>Roberto Battistoni</persName>
+               <resp xml:lang="it">Recupero dei dati</resp>
+               <resp xml:lang="en">Data retrieval</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Tommaso Agnoloni</persName>
+               <resp xml:lang="it">Codifica corpus in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">ParlaMint TEI XML corpus encoding</resp>
+               <resp xml:lang="it">Pulizia, normalizzazione e conversione in ParlaMint TEI XML</resp>
+               <resp xml:lang="en">Cleaning, normalisation and conversion to ParlaMint TEI XML</resp>
+            </respStmt>
+            <funder>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Commissione Europea</orgName>
+               <orgName xml:lang="en">European Commission</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Senato della Repubblica italiana</orgName>
+               <orgName xml:lang="en">Senate of the Italian Republic</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Linguistica Computazionale del Consiglio Nazionale delle Ricerche (CNR-ILC)</orgName>
+               <orgName xml:lang="en">Institute of Computational linguistics of the Italian National Research Council (CNR-ILC)</orgName>
+            </funder>
+            <funder>
+               <orgName xml:lang="it">Istituto di Informatica Giuridica e Sistemi Giudiziari del Consiglio Nazionale delle Ricerche (CNR-IGSG)</orgName>
+               <orgName xml:lang="en">Institute of Legal Informatics and Judicial Systems of the Italian National Research Council (CNR-IGSG)</orgName>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>4.0</edition>
+         </editionStmt>
+         <extent>
+            <measure quantity="19" unit="speeches" xml:lang="it">19 discorsi</measure>
+            <measure quantity="19" unit="speeches" xml:lang="en">19 speeches</measure>
+            <measure quantity="3236" unit="words" xml:lang="it">3.236 parole</measure>
+            <measure quantity="3236" unit="words" xml:lang="en">3,236 words</measure>
+         </extent>
+         <publicationStmt>
+            <publisher>
+               <orgName xml:lang="it">Infrastruttura di ricerca CLARIN</orgName>
+               <orgName xml:lang="en">The CLARIN research infrastructure</orgName>
+               <ref target="https://www.clarin.eu/">www.clarin.eu</ref>
+            </publisher>
+            <idno type="URI" subtype="handle">http://hdl.handle.net/11356/1859</idno>
+            <availability status="free">
+               <licence>http://creativecommons.org/licenses/by/4.0/</licence>
+               <p xml:lang="it">Quest'opera è rilasciata con <ref target="http://creativecommons.org/licenses/by/4.0/">licenza Creative Commons 4.0 Attribuzione Internazionale</ref> .</p>
+               <p xml:lang="en">This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref> .</p>
+            </availability>
+            <date when="2023-10-07">2023-10-07</date>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main" xml:lang="it">Resoconti stenografici delle sedute pubbliche del Senato della Repubblica italiana</title>
+               <title type="main" xml:lang="en">Minutes of the Senate of the Republic of Italy</title>
+               <publisher>Senato della Repubblica</publisher>
+               <idno type="URI" subtype="parliament">http://www.senato.it/japp/bgt/showdoc/frame.jsp?tipodoc=Resaula&amp;leg=17&amp;id=0698190</idno>
+               <date when="2013-03-15">15.03.2013</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="en"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref> is a project that aims to (1) create a multilingual set of comparable corpora of parliamentary proceedings uniformly encoded according to the <ref target="https://clarin-eric.github.io/ParlaMint/">ParlaMint encoding guidelines</ref>, covering the period from 2015 to mid-2022; (2) add linguistic annotations to the corpora and machine-translate them to English; (3) make the corpora available through concordancers; and (4) build use cases in Political Sciences and Digital Humanities based on the corpus data.</p>
+            <p xml:lang="it"><ref target="https://www.clarin.eu/content/parlamint">ParlaMint</ref>
+            </p>
+         </projectDesc>
+         <tagsDecl>
+            <namespace name="http://www.tei-c.org/ns/1.0">
+               <tagUsage gi="body" occurs="1"/>
+               <tagUsage gi="desc" occurs="6"/>
+               <tagUsage gi="div" occurs="15"/>
+               <tagUsage gi="head" occurs="14"/>
+               <tagUsage gi="incident" occurs="1"/>
+               <tagUsage gi="kinesic" occurs="4"/>
+               <tagUsage gi="note" occurs="31"/>
+               <tagUsage gi="seg" occurs="54"/>
+               <tagUsage gi="text" occurs="1"/>
+               <tagUsage gi="u" occurs="19"/>
+               <tagUsage gi="vocal" occurs="1"/>
+            </namespace>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <name type="address">Piazza Madama, 11</name>
+               <name type="city">Roma</name>
+               <name key="IT" type="country">Italia</name>
+               <date ana="#parla.sitting" when="2013-03-15">15.03.2013</date>
+            </setting>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text ana="#reference" xml:lang="it">
+      <body>
+         <div type="debateSection">
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note1">Presidenza del presidente provvisorio COLOMBO</note>
+            <note xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note2">Il senatore Colombo, presidente provvisorio ai sensi dell'articolo 2, comma 1, del Regolamento, sale al banco presidenziale</note>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note3">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u1">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg1">La seduta è aperta (ore 11,01).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head1">Per l'apertura della XVII legislatura</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note4">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u2">
+               <incident type="action" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.incident1">
+                  <desc>Si leva in piedi.</desc>
+               </incident>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg2">Onorevoli senatori, l'età mi chiama a presiedere l'evento che inaugura l'attività del Senato nella XVII legislatura repubblicana.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg3">Ciò mi dà l'occasione per rivolgere un augurio di buon lavoro ai nuovi eletti - siete tanti - e un saluto cordiale ai colleghi che ritrovo in quest'Aula. Mi dà anche modo di interpretare, sicuro di avere il consenso unanime, un pensiero deferente al Presidente della Repubblica, che con tanta saggezza e con tanto senso delle istituzioni e dello Stato guida il nostro Paese in uno dei momenti più difficili della nostra Repubblica.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.kinesic1">
+                  <desc>Generali applausi</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg4">La consultazione elettorale ha innovato profondamente le rappresentanze parlamentari, come è evidente, e ha fatto emergere significative diversità. Spetterà al Parlamento comporle o renderle compatibili al servizio di un Paese che vive una difficile e complessa stagione.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg5">Nella ricerca di una sintesi utile all'Italia, ci sosterrà certamente il costante riferimento alla Costituzione repubblicana, insieme con la positiva declinazione dei Regolamenti parlamentari, dei poteri e dei doveri che ci assegna l'ordinamento repubblicano. È del tutto evidente che una contrapposizione statica delle differenti interpretazioni culturali, etiche e politiche dell'attuale momento porterebbe alla paralisi istituzionale, con conseguenze drammatiche sul governo dei grandi problemi sociali ed economici che attanagliano il nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg6">Credo perciò che un dialogo onesto e rigoroso, che è poi l'essenza della democrazia, e l'assunzione di una comune responsabilità nella soluzione dei problemi del Paese possano trasformare, in questa difficile congiuntura, le legittime contrapposizioni in energie creative e rigeneratrici della vita politica, civile e istituzionale del nostro Paese.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg7">La qualità del servizio che nella democrazia siamo chiamati a rendere al Paese, i valori della coesione sociale e della unità nazionale, così come il sentimento di solidarietà e di giustizia rappresentano le principali condizioni per vincere le grandi sfide che sono davanti a noi. Quali rappresentanti di un grande popolo, sono certo che sapremo sostenere le istanze di rinnovamento che vengono dalla società italiana.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg8">Viviamo un tempo, e così apparve a me agli esordi dell'Assemblea Costituente di cui fui membro, che si propone come una stagione di ricostruzione di grandi valori collettivi, di rilancio dello sviluppo per le nuove generazioni, di impegno per una Europa non solo forte, ma giusta. Quando dico forte e giusta intendo dire una Europa che sia aperta sì alle istanze del rigore, ma anche alle istanze e alle esigenze dello sviluppo, e soprattutto che voglia proseguire in un cammino di unità, sia sul piano politico, sia sul piano istituzionale.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg9">E poiché questa è la prima seduta del Senato della Repubblica italiana nella nuova legislatura, ed è una seduta che segue di poche ore l'elevazione al Soglio pontificio di Papa Francesco, sono certo di interpretare il pensiero di tutti voi rivolgendo a lui il nostro rispettoso e fervido augurio per un fecondo pontificato.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.kinesic2">
+                  <desc>L'Assemblea si leva in piedi. Vivi, prolungati applausi.</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg10">Con questi sentimenti rinnovo a tutti voi, a tutti noi, un augurio di un buono, fervido ed intenso impegno di lavoro in questa Aula del Senato della Repubblica.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.kinesic3">
+                  <desc>Generali applausi.</desc>
+               </kinesic>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head2">Annunzio di dimissioni della senatrice Giovanna Mangili</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note5">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u3">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg11">Comunico che, nella giornata di ieri, la senatrice Giovanna Mangili ha trasmesso alla Presidenza una comunicazione nella quale dichiara di voler rassegnare, per motivi personali, le proprie dimissioni dalla carica di parlamentare.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg12">Conformemente alla prassi, le dimissioni saranno portate all'attenzione della Conferenza dei Capigruppo ai fini della successiva calendarizzazione per il voto dell'Assemblea.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head3">Costituzione dell'Ufficio di Presidenza provvisorio</head>
+            <note type="time" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note6">ore 11,11</note>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note7">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u4">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg13">L'ordine del giorno reca: «Costituzione dell'Ufficio di Presidenza provvisorio».</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg14">A norma dell'articolo 2, comma 2, del Regolamento, invito i senatori Battista, Spilabotte, Puglia, Verducci, Vacciano e Crimi, che risultano essere i più giovani - beati loro - senatori presenti in Aula, a prendere posto al banco della Presidenza per esercitare le funzioni di Segretari provvisori. (I senatori Segretari provvisori prendono posto al banco della Presidenza).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head4">Annunzio di opzioni</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note8">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u5">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg15">Invito il senatore Segretario provvisorio a dare lettura della comunicazione delle opzioni.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note9">CRIMI</note>
+            <note type="role" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note10">segretario provvisorio</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u6">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg16">Comunico che i senatori Barani, Berlusconi, Casini, Ichino, Marino e Tremonti, proclamati eletti per il Senato in più Regioni, hanno indicato le loro rispettive opzioni: il senatore Barani Lucio, eletto per la lista «Il Popolo della Libertà» nelle Regioni Lombardia e Campania, ha dichiarato di optare per la Regione Lombardia; il senatore Berlusconi Silvio, eletto per la lista «Il Popolo della Libertà» nelle Regioni Piemonte, Lombardia, Veneto, Friuli-Venezia Giulia, Liguria, Emilia-Romagna, Toscana, Umbria, Marche, Lazio, Abruzzo, Molise, Campania, Puglia, Basilicata, Calabria, Sicilia e Sardegna, ha dichiarato di optare per la Regione Molise; il senatore Casini Pier Ferdinando, eletto per la lista «Con Monti per l'Italia» nelle Regioni Campania e Basilicata, ha dichiarato di optare per la Regione Campania; il senatore Ichino Pietro, eletto per la lista «Con Monti per l'Italia» nelle Regioni Lombardia e Toscana, ha dichiarato di optare per la Regione Lombardia; il senatore Marino Ignazio, eletto per la lista «Partito Democratico» nelle Regioni Piemonte e Lazio, ha dichiarato di optare per la Regione Piemonte; il senatore Tremonti Giulio, eletto per la lista «Lega Nord Padania» nelle Regioni Piemonte e Lombardia, ha dichiarato di optare per la Regione Lombardia.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note11">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u7">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg17">Prendiamo atto, dunque, delle opzioni che sono state comunicate.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head5">Costituzione della Giunta provvisoria per la verifica dei poteri e proclamazione dei senatori subentranti</head>
+            <note type="time" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note12">ore 11,14</note>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note13">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u8">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg18">L'ordine del giorno reca: «Costituzione della Giunta provvisoria per la verifica dei poteri e proclamazione dei senatori subentranti».</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg19">La Giunta ha il compito di effettuare gli accertamenti relativi alla proclamazione a senatore dei candidati che subentrano agli optanti per altre circoscrizioni.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg20">Ai sensi dell'articolo 3, comma 3, del Regolamento, la Giunta provvisoria è costituita dai senatori membri della Giunta delle elezioni del Senato della Repubblica della precedente legislatura che sono presenti alla seduta, in numero non inferiore a sette.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg21">Invito, pertanto, i senatori Augello, Bonfrisco, Casson, Divina, Fazzone e Malan a riunirsi immediatamente nell'adiacente sala Pannini per procedere agli accertamenti relativi alla proclamazione a senatore dei candidati che subentrano agli optanti per altre circoscrizioni.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg22">Poiché il numero dei senatori membri della Giunta delle elezioni della precedente legislatura presenti alla seduta è inferiore a sette, si procederà mediante sorteggio all'integrazione del collegio. (La Presidenza procede al sorteggio. È estratto a sorte il nome della senatrice Fucksia). La senatrice Fucksia è chiamata a riunirsi insieme agli altri membri della Giunta delle elezioni. Essendo dunque integrata la Giunta provvisoria, prego la Giunta stessa di adempiere ai propri compiti, e quindi sospendo la seduta, che riprenderà non appena tali lavori saranno conclusi. (La seduta, sospesa alle ore 11,17, è ripresa alle ore 11,41). La seduta è ripresa. Invito gli onorevoli senatori a riprendere posto. Comunico che la Giunta provvisoria per la verifica dei poteri ha concluso i propri lavori. Invito pertanto il senatore Segretario provvisorio a dare lettura dei candidati che risultano primi dei non eletti nei seggi resisi vacanti.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note14">CRIMI</note>
+            <note type="role" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note15">segretario provvisorio</note>
+            <u ana="#regular" who="#CrimiVitoClaudio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u9">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg23">Informo che la Giunta provvisoria per la verifica dei poteri ha comunicato di aver preso atto delle dichiarazioni di opzione pervenute e, per le sostituzioni cui occorre provvedere nei seggi resisi in conseguenza vacanti, ai sensi dell'articolo 19 della legge elettorale per il Senato, ha riscontrato che nelle sottoindicate Regioni risultano primi dei non eletti i seguenti candidati: nella Regione Abruzzo, per la lista «Il Popolo della Libertà», Federica Chiavaroli, in sostituzione del senatore Silvio Berlusconi; nella Regione Basilicata, per la lista «Il Popolo della Libertà», Guido Walter Cesare Viceconte, in sostituzione del senatore Silvio Berlusconi; per la lista «Con Monti per l'Italia», Salvatore Tito Di Maggio, in sostituzione del senatore Pier Ferdinando Casini; nella Regione Calabria, per la lista «Il Popolo della Libertà», Domenico Scilipoti, in sostituzione del senatore Silvio Berlusconi; nella Regione Campania, per la lista «Il Popolo della Libertà», Vincenzo Fasano, in sostituzione del senatore Silvio Berlusconi, e Franco Cardiello, in sostituzione del senatore Lucio Barani; nella Regione Emilia-Romagna, per la lista «Il Popolo della Libertà», Laura Bianconi, in sostituzione del senatore Silvio Berlusconi; nella Regione Friuli-Venezia Giulia, per la lista «Il Popolo della Libertà», Bernabò Bocca, in sostituzione del senatore Silvio Berlusconi; nella Regione Lazio, per la lista «Il Popolo della libertà», Francesco Aracri, in sostituzione del senatore Silvio Berlusconi; per la lista «Partito Democratico», Daniela Valentini, in sostituzione del senatore Ignazio Roberto Maria Marino; nella Regione Liguria, per la lista «Il Popolo della Libertà», Augusto Minzolini, in sostituzione del senatore Silvio Berlusconi; nella Regione Lombardia, per la lista «Il Popolo della Libertà», Sante Zuffada, in sostituzione del senatore Silvio Berlusconi; nella Regione Marche, per la lista «Il Popolo della libertà», Remigio Ceroni, in sostituzione del senatore Silvio Berlusconi; nella Regione Piemonte, per la lista «Il Popolo della Libertà», Maria Rizzotti, in sostituzione del senatore Silvio Berlusconi; per la lista «Lega Nord», Michelino Davico, in sostituzione del senatore Giulio Tremonti; nella Regione Puglia, per la lista «Il Popolo della Libertà», Francesco Bruni, in sostituzione del senatore Silvio Berlusconi; nella Regione Sardegna, per la lista «Il Popolo della Libertà», Emilio Floris, in sostituzione del senatore Silvio Berlusconi; nella Regione Sicilia, per la lista «Il Popolo della Libertà», Marcello Gualdani, in sostituzione del senatore Silvio Berlusconi; nella Regione Toscana, per la lista «Il Popolo della Libertà», Riccardo Giuseppe Mazzoni, in sostituzione del senatore Silvio Berlusconi; per la lista «Con Monti per l'Italia», Stefania Giannini, in sostituzione del senatore Pietro Emilio Antonio Ichino; nella Regione Umbria, per la lista «Il Popolo della Libertà», Luciano Rossi, in sostituzione del senatore Silvio Berlusconi; nella Regione Veneto, per la lista «Il Popolo della Libertà», Franco Conte, in sostituzione del senatore Silvio Berlusconi.</seg>
+            </u>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note16">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u10">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg24">Do atto alla Giunta di queste sue comunicazioni e proclamo quindi senatori i candidati Federica Chiavaroli, nella Regione Abruzzo; Guido Walter Cesare Viceconte e Salvatore Tito Di Maggio, nella Regione Basilicata; Domenico Scilipoti, nella Regione Calabria; Vincenzo Fasano e Franco Cardiello, nella Regione Campania; Laura Bianconi, nella Regione Emilia-Romagna; Bernabò Bocca, nella Regione Friuli-Venezia Giulia; Francesco Aracri e Daniela Valentini, nella Regione Lazio; Augusto Minzolini, nella Regione Liguria; Sante Zuffada, nella Regione Lombardia; Remigio Ceroni, nella Regione Marche; Maria Rizzotti e Michelino Davico, nella Regione Piemonte; Francesco Bruni, nella Regione Puglia; Emilio Floris, nella Regione Sardegna; Marcello Gualdani, nella Regione Sicilia; Riccardo Giuseppe Bazzoni e Stefania Giannini, nella Regione Toscana; Luciano Rossi, nella Regione Umbria; Franco Conte, nella Regione Veneto.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg25">Avverto che da oggi decorre, nei confronti dei nuovi proclamati, il termine di venti giorni per la presentazione di eventuali reclami.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head6">Votazione per l'elezione del Presidente</head>
+            <note type="time" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note17">ore 11,49</note>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note18">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u11">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg26">L'ordine del giorno reca ora: «Votazione per l'elezione del Presidente».</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg27">Per l'elezione del Presidente del Senato si procederà, ai sensi dell'articolo 4 del Regolamento, con votazione a scrutinio segreto. Ricordo che in questo scrutinio per l'elezione è richiesta la maggioranza assoluta dei componenti del Senato, e cioè 160 voti.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg28">Per garantire il più ordinato svolgimento delle operazioni di voto, come è avvenuto per l'elezione del Presidente nelle ultime due legislature, davanti al banco della Presidenza è stata approntata una cabina. I colleghi senatori, immediatamente prima dell'ingresso in cabina, riceveranno dagli assistenti parlamentari una scheda che, dopo il voto, depositeranno nell'apposita urna all'uscita della cabina stessa.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg29">Prima di passare alla votazione per l'elezione del Presidente del Senato, avverto che, al fine di prevenire ogni possibile equivoco - come se ne sono già verificati a suo tempo - o indicazione erronea, sono a disposizione dei senatori in Aula gli elenchi dei colleghi che hanno lo stesso cognome, con l'indicazione dei rispettivi nomi personali.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg30">Dichiaro aperta la votazione a scrutinio segreto.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg31">Invito il senatore Segretario provvisorio a procedere all'appello dei senatori in ordine alfabetico. (La senatrice segretario Spilabotte e, successivamente, il senatore segretario Crimi fanno l'appello). Prendono parte alla votazione i senatori: Aiello, Airola, Albano, Alberti Casellati, Albertini, Alicata, Amati, Amoruso, Angioni, Anitori, Aracri, Arrigoni, Astorre, Augello, Azzollini Barani, Barozzino, Battista, Bellot, Bencini, Berger, Bernini, Bertorotta, Bertuzzi, Bianco, Bianconi, Bignami, Bilardi, Bisinella, Bitonci, Blundo, Bocca, Bocchino, Bonaiuti, Bondi, Bonfrisco, Borioli, Bottici, Broglia, Bruni, Bruno, Bubbico, Buccarella, Bulgarelli Calderoli, Caleo, Caliendo, Campanella, Candiani, Cantini, Capacchione, Cappelletti, Cardiello, Cardinali, Caridi, Carraro, Casaletto, Casini, Cassano, Casson, Castaldi, Catalfo, Centinaio, Ceroni, Cervellini, Chiavaroli, Chiti, Ciampolillo, Cioffi, Cirinnà, Cociancich, Collina, Colombo, Colucci, Comaroli, Compagna, Compagnone, Consiglio, Conte, Conti, Corsini, Cotti, Crimi, Crosio, Cucca, Cuomo D'Adda, D'Alì, Dalla Tor, Dalla Zuanna, D'Ambrosio Lettieri, D'Anna, D'Ascola, Davico, De Biasi, De Cristofaro, De Monte, De Petris, De Pietro, De Pin, De Poli, De Siano, Del Barba, Della Vedova, Di Biagio, Di Giorgi, Di Maggio, Dirindin, Divina, D'Onghia, Donno Endrizzi, Esposito Giuseppe, Esposito Stefano Fabbri, Falanga, Fasano, Fattori, Fattorini, Favero, Fazzone, Fedeli, Ferrara Elena, Ferrara Mario, Filippi, Filippin, Finocchiaro, Fissore, Floris, Formigoni, Fornaro, Fravezzi, Fucksia Gaetti, Galimberti, Gambaro, Garavaglia, Gasparri, Gatti, Gentile, Ghedini Rita, Giacobbe, Giannini, Giarrusso, Gibiino, Ginetti, Giovanardi, Giro, Girotto, Gotor Facello, Granaiola, Grasso, Gualdani, Guerra, Guerrieri Paleotti Ichino, Idem, Iurlaro Lai Bachisio, Langella, Laniece, Lanzillotta, Latorre, Lepri, Lezzi, Liuzzi, Lo Giudice, Lo Moro, Longo Eva, Longo Fausto Guilherme, Lucherini, Lucidi, Lumia Malan, Manassero, Manconi, Mancuso, Mandelli, Mantovani, Maran, Marcucci, Margiotta, Marin, Marinello, Marino Ignazio, Marino Luigi, Marino Mauro Maria, Martelli, Martini, Marton, Mastrangeli, Matteoli, Mattesini, Maturani, Mauro Giovanni, Mauro Mario Walter, Mazzoni, Merloni, Messina, Micheloni, Migliavacca, Milo, Mineo, Minniti, Minzolini, Mirabelli, Molinari, Montevecchi, Monti, Morgoni, Moronese, Morra, Moscardelli, Mucchetti, Munerato, Mussini, Mussolini Nencini, Nugnes Olivero, Orellana, Orrù Padua, Pagano, Pagliari, Paglini, Palermo, Palma, Panizza, Parente, Pegorer, Pelino, Pepe, Perrone, Petraglia, Petrocelli, Pezzopane, Piccoli, Pignedoli, Pinotti, Pizzetti, Puglia, Puglisi, Puppato Quagliariello Ranucci, Razzi, Repetti, Ricchiuti, Rizzotti, Romani Maurizio, Romani Paolo, Romano, Rossi Gianluca, Rossi Luciano, Rossi Maurizio Giuseppe, Russo, Ruta, Ruvolo Sacconi, Saggese, Sangalli, Santangelo, Santini, Scalia, Scavone, Schifani, Sciascia, Scibona, Scilipoti, Scoma, Serafini, Serra, Sibilia, Silvestro, Simeoni, Sollo, Sonego, Spilabotte, Sposetti, Stefani, Stefano, Stucchi, Susta Tarquinio, Taverna, Tocci, Tomaselli, Tonini, Torrisi, Tremonti, Tronti, Turano Uras Vaccari, Vacciano, Valentini, Vattuone, Verdini, Verducci, Verro, Vicari, Viceconte, Villari, Volpi Zanda, Zanettin, Zanoni, Zavoli, Zeller, Zin, Zizza, Zuffada.</seg>
+               <kinesic type="applause" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.kinesic4">
+                  <desc>Nel corso della votazione il Presidente richiama l'Assemblea a ridurre il brusìo. Applausi da parte di alcuni senatori eletti nelle liste «Movimento 5 Stelle Grillo».</desc>
+               </kinesic>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg32">PRESIDENTE. Dichiaro chiusa la votazione e dispongo che l'Ufficio di Presidenza provvisorio proceda allo spoglio delle schede in seduta pubblica.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg33">Invito due senatori Segretari a portare l'urna sul banco della Presidenza. (I senatori Segretari provvisori procedono allo spoglio delle schede. Il Presidente provvisorio procede alla lettura delle schede che gli vengono passate dal Segretario generale e le porge a sua volta ai senatori Segretari provvisori che prendono nota dei voti espressi). Invito i senatori Segretari provvisori a procedere al computo dei voti. (I senatori Segretari provvisori procedono al computo dei voti).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head7">Risultato di votazione</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note19">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u12">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg34">Proclamo il risultato della votazione a scrutinio segreto per l'elezione del Presidente del Senato:</seg>
+               <note type="voting" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note20">Senatori presenti 313 Senatori votanti 313 Maggioranza assoluta dei componenti del Senato 160</note>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg35">Hanno ottenuto voti i senatori:</seg>
+               <note type="summary" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note21">Orellana 52 Sibilia 4 Mussolini 3 Compagna 2 Colombo 1 Scilipoti 1 Schede bianche 246 Schede nulle 4</note>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg36">Poiché nessun senatore ha conseguito la maggioranza assoluta dei voti dei componenti del Senato, occorre procedere, ai sensi dell'articolo 4 del Regolamento, ad una seconda votazione a scrutinio segreto, che avrà luogo questo pomeriggio alle ore 16.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg37">La seduta è sospesa. (La seduta, sospesa alle ore 13,46, è ripresa alle ore 16,05).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head8">Votazione per l'elezione del Presidente</head>
+            <note type="time" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note22">ore 16,05</note>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note23">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u13">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg38">Onorevoli senatori, riprendiamo i nostri lavori.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg39">Ricordo agli onorevoli colleghi che, ai sensi dell'articolo 4 del Regolamento, dobbiamo procedere alla seconda votazione a scrutinio segreto per l'elezione del Presidente del Senato. Anche in questa votazione è necessaria la maggioranza assoluta dei componenti dell'Assemblea, e cioè 160 voti.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg40">Analogamente a quanto avvenuto questa mattina, i colleghi senatori, immediatamente prima dell'ingresso in cabina, riceveranno dagli assistenti parlamentari una scheda che, dopo il voto, depositeranno nell'apposita urna all'uscita della cabina stessa.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg41">Dichiaro aperta la votazione a scrutinio segreto.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg42">Invito il senatore Segretario provvisorio a procedere all'appello dei senatori in ordine alfabetico. VACCIANO, segretario provvisorio, fa l'appello. Prendono parte alla votazione i senatori: Aiello, Airola, Albano, Alberti Casellati, Albertini, Alicata, Amati, Amoruso, Angioni, Anitori, Aracri, Arrigoni, Astorre, Augello, Azzollini Barani, Barozzino, Battista, Bellot, Bencini, Berger, Bernini, Bertorotta, Bertuzzi, Bianco, Bianconi, Bignami, Bilardi, Bisinella, Bitonci, Blundo, Bocca, Bocchino, Bonaiuti, Bondi, Bonfrisco, Borioli, Bottici, Broglia, Bruni, Bruno, Bubbico, Buccarella, Bulgarelli Calderoli, Caleo, Caliendo, Campanella, Candiani, Cantini, Capacchione, Cappelletti, Cardiello, Cardinali, Caridi, Carraro, Casaletto, Casini, Cassano, Casson, Castaldi, Catalfo, Centinaio, Ceroni, Cervellini, Chiavaroli, Chiti, Ciampolillo, Cioffi, Cirinnà, Cociancich, Collina, Colombo, Colucci, Comaroli, Compagna, Compagnone, Consiglio, Conte, Corsini, Cotti, Crimi, Crosio, Cucca, Cuomo D'Adda, D'Alì, Dalla Tor, Dalla Zuanna, D'Ambrosio Lettieri, D'Anna, D'Ascola, Davico, De Biasi, De Cristofaro, De Monte, De Petris, De Pietro, De Pin, De Poli, De Siano, Del Barba, Della Vedova, Di Biagio, Di Giorgi, Di Maggio, Dirindin, Divina, D'Onghia, Donno Endrizzi, Esposito Giuseppe, Esposito Stefano Fabbri, Falanga, Fasano, Fattori, Fattorini, Favero, Fazzone, Fedeli, Ferrara Elena, Ferrara Mario, Filippi, Filippin, Finocchiaro, Fissore, Floris, Formigoni, Fornaro, Fravezzi, Fucksia Gaetti, Galimberti, Gambaro, Garavaglia, Gasparri, Gatti, Gentile, Ghedini Niccolò, Ghedini Rita, Giacobbe, Giannini, Giarrusso, Gibiino, Ginetti, Giovanardi, Girotto, Gotor Facello, Granaiola, Grasso, Gualdani, Guerra, Guerrieri Paleotti Ichino, Idem, Iurlaro Lai Bachisio, Langella, Laniece, Lanzillotta, Latorre, Lepri, Lezzi, Liuzzi, Lo Giudice, Lo Moro, Longo Eva, Longo Fausto Guilherme, Lucherini, Lucidi, Lumia Malan, Manassero, Manconi, Mancuso, Mandelli, Mantovani, Marcucci, Margiotta, Marin, Marinello, Marino Ignazio, Marino Luigi, Marino Mauro Maria, Martelli, Martini, Marton, Mastrangeli, Matteoli, Mattesini, Maturani, Mauro Giovanni, Mauro Mario Walter, Mazzoni, Merloni, Messina, Micheloni, Migliavacca, Milo, Mineo, Minniti, Minzolini, Mirabelli, Molinari, Montevecchi, Monti, Morgoni, Moronese, Morra, Moscardelli, Mucchetti, Munerato, Mussini, Mussolini Nencini, Nugnes Olivero, Orellana, Orrù Padua, Pagano, Pagliari, Paglini, Palermo, Palma, Panizza, Parente, Pegorer, Pelino, Pepe, Perrone, Petraglia, Petrocelli, Pezzopane, Piccoli, Pignedoli, Pinotti, Pizzetti, Puglia, Puglisi, Puppato Quagliariello Ranucci, Razzi, Repetti, Ricchiuti, Rizzotti, Romani Maurizio, Romani Paolo, Romano, Rossi Gianluca, Rossi Luciano, Rossi Maurizio Giuseppe, Russo, Ruta, Ruvolo Sacconi, Saggese, Sangalli, Santangelo, Santini, Scalia, Scavone, Schifani, Sciascia, Scibona, Scilipoti, Scoma, Serafini, Serra, Sibilia, Silvestro, Simeoni, Sollo, Sonego, Spilabotte, Sposetti, Stefani, Stefano, Stucchi, Susta Tarquinio, Taverna, Tocci, Tomaselli, Tonini, Torrisi, Tremonti, Tronti, Turano Uras Vaccari, Vacciano, Valentini, Vattuone, Verdini, Verducci, Verro, Vicari, Viceconte, Villari, Volpi Zanda, Zanettin, Zanoni, Zavoli, Zeller, Zin, Zizza, Zuffada.</seg>
+               <vocal type="shouting" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.vocal1">
+                  <desc>Nel corso della votazione il Presidente richiama l'Assemblea a ridurre il brusìo e a lasciare libero l'emiciclo per permettere lo svolgimento delle operazioni di voto</desc>
+               </vocal>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg43">PRESIDENTE. Dichiaro chiusa la votazione e dispongo che l'Ufficio di Presidenza provvisorio proceda allo spoglio delle schede in seduta pubblica.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg44">Invito due senatori Segretari a portare l'urna sul banco della Presidenza. (I senatori Segretari provvisori procedono allo spoglio delle schede. Il Presidente provvisorio procede alla lettura delle schede che gli vengono passate dal Segretario generale e le porge a sua volta ai senatori Segretari provvisori che prendono nota dei voti espressi). PRESIDENTE. Invito i senatori Segretari provvisori a procedere al computo dei voti. (I senatori Segretari provvisori procedono al computo dei voti).</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head9">Risultato di votazione</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note24">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u14">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg45">Proclamo il risultato della votazione a scrutinio segreto per l'elezione del Presidente del Senato:</seg>
+               <note type="voting" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note25">Senatori presenti 311 Senatori votanti 311 Maggioranza assoluta dei componenti del Senato 160</note>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg46">Hanno ottenuto voti i senatori:</seg>
+               <note type="summary" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note26">Orellana 52 Sibilia 12 Marino Ignazio 8 Esposito Giuseppe 5 Casson 3 Scilipoti 2 Mussolini 1 Casini 1 Gentile 1 Schede bianche 223 Schede nulle 3</note>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg47">Poiché nessun senatore ha conseguito la maggioranza assoluta dei voti dei componenti del Senato, ai sensi dell'articolo 4 del Regolamento, occorrerà procedere nella giornata di domani, sabato 16 marzo, alle ore 11, ad una terza votazione nella quale sarà sufficiente la maggioranza assoluta dei voti dei presenti, computando fra i voti anche le schede bianche.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head10">Per la composizione dei Gruppi parlamentari</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note27">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u15">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg48">Ricordo che, a norma dell'articolo 14, comma 2, del Regolamento, entro tre giorni dalla prima seduta, ogni senatore è tenuto ad indicare alla Presidenza del Senato il Gruppo del quale intende far parte.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head11">Sulla lettura del processo verbale</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note28">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u16">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg49">Ricordo che, in conformità alla prassi del Senato, il processo verbale di ogni seduta antimeridiana, pomeridiana o notturna sarà letto ed approvato nella successiva seduta, rispettivamente, antimeridiana, pomeridiana o notturna.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg50">Non facendosi osservazioni, così rimane stabilito.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head12">Annunzio di presentazione di atti e documenti della XVI legislatura</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note29">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u17">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg51">Comunico che, dopo lo scioglimento delle Camere, sono pervenuti alla Presidenza gli atti e i documenti indicati nell'allegato B al Resoconto della seduta odierna.</seg>
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg52">Comunico, inoltre, che sono pervenute alla Presidenza interrogazioni con richiesta di risposta scritta, pubblicate sempre nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head13">Mozioni, interpellanze e interrogazioni, annunzio</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note30">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u18">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg53">Le mozioni, interpellanze e interrogazioni pervenute alla Presidenza saranno pubblicate nell'allegato B al Resoconto della seduta odierna.</seg>
+            </u>
+         </div>
+         <div type="debateSection">
+            <head xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.head14">Ordine del giorno per la seduta di sabato 16 marzo 2013</head>
+            <note type="speaker" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.note31">PRESIDENTE</note>
+            <u ana="#chair" who="#ColomboEmilio" xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.u19">
+               <seg xml:id="ParlaMint-IT_2013-03-15-LEG17-Senato-sed-1.seg54">Il Senato tornerà a riunirsi in seduta pubblica domani, sabato 16 marzo, alle ore 11, con il seguente ordine del giorno: (Vedi ordine del giorno) La seduta è tolta (ore 18).</seg>
+            </u>
+         </div>
+      </body>
+   </text>
+</TEI>
