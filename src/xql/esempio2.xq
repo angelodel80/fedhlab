@@ -1,12 +1,12 @@
 xquery version "3.1";
-(: Esercizio 2 Workshop CLARIN - SIENA 2024 :)
+(: Esercizio 2 Workshop FeDHLab 2024 :)
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 declare option output:method   "xml";
 declare option output:encoding "UTF-8";
 declare option output:media-type "text/xml";
 
-let $doc := doc('./xml/switchboard.clarin.eu-step9.xml')
+let $doc := doc('../xml/switchboard.clarin.eu-step9.xml')
 let $lemmata := distinct-values ($doc//w/@lemma)
 
 return
