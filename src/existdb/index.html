@@ -1,0 +1,61 @@
+<div xmlns="http://www.w3.org/1999/xhtml" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+  
+    <div class="row" style="padding-top: 1.5rem">
+        <div class="col-md-8">
+          <div class="page-header">
+  
+    <h1 data-template="config:app-title">Generated page</h1>
+  
+  </div>
+   <div class="alert alert-success">
+          <!-- first add search button -->
+            <div class="row">
+              <div class="col-md-8">
+                 <form action="" method="POST" class="form form-horizontal">
+                    <div class="form-group">
+                        <label for="lemma" class="col-md-3 hidden-xs control-label">Lemma Query:</label>
+                        <div class="col-md-6 col-xs-14">
+                            <span class="input-group">
+                                <input name="lemma" type="search" data-template="templates:form-control" class="form-control" placeholder="Search for lemma"/>
+                                <span style="margin-left:2px" class="input-group-btn">
+                                    <button id="f-btn-search" type="submit" class="btn btn-primary">
+                                        <span class="glyphicon glyphicon-search">search</span>
+                                    </button>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                 </form>
+              </div>
+            </div>
+            <!-- search button -->
+          </div> 
+<div class="row">
+  
+              <div class="col-md-4">
+                
+                <p>
+                    <input type="button" value="index data"/>
+                </p>
+              </div>
+              <div class="col-md-8">
+                        
+                <div data-template="app:context" style="padding-bottom:3em; margin-bottom:2ex; max-height:450px; overflow:auto">
+                       <div data-template="templates:each" data-template-from="words" data-template-to="w">
+                           <span class="loci" data-template="app:locus"/> (<span data-template="app:eclo"/>, <span data-template="app:verse"/> )
+                       </div>
+                </div>
+              </div>
+      
+            </div>
+  </div>
+  
+  <div class="col-md-4" style="max-height:450px; overflow:auto">
+    <h2>Query Result</h2>
+    <ul id="results" data-template="app:query">
+        
+    </ul>
+  </div>
+  
+  </div>
+</div>
